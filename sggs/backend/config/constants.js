@@ -1,0 +1,1 @@
+//roles,estados,tipos de usuario y demas constantes
