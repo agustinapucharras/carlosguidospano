@@ -1,0 +1,231 @@
+# =============================================
+# ARCHIVOS SENSIBLES Y CONFIGURACIÓN
+# =============================================
+
+# Variables de entorno - ¡NUNCA SUBIR!
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Configuraciones locales
+config.local.js
+config.local.json
+
+# Claves privadas
+*.key
+*.pem
+*.crt
+*.csr
+
+# =============================================
+# DEPENDENCIAS Y BUILD
+# =============================================
+
+# Node modules - se instalan con npm install
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Paquetes de dependencias
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+
+# =============================================
+# ARCHIVOS DE SISTEMA
+# =============================================
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# =============================================
+# LOGS
+# =============================================
+
+# Logs de aplicaciones
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Logs de bases de datos
+*.sqlite
+*.db
+
+# =============================================
+# ARCHIVOS SUBIDOS POR USUARIOS
+# =============================================
+
+# Uploads - no versionar archivos subidos
+uploads/
+public/uploads/
+temp/
+tmp/
+storage/
+
+# Archivos multimedia
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+*.doc
+*.docx
+
+# =============================================
+# IDE Y EDITORES
+# =============================================
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.settings/
+.project
+.classpath
+*.launch
+
+# =============================================
+# BASE DE DATOS
+# =============================================
+
+# Backups y dumps de BD
+*.sql
+*.dump
+backup/
+database/backups/
+
+# SQLite
+*.sqlite
+*.db
+
+# =============================================
+# TESTING
+# =============================================
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Jest
+jest-cache/
+
+# =============================================
+# DOCKER
+# =============================================
+
+# Docker
+docker-compose.override.yml
+
+# =============================================
+# MÓDULOS NATIVOS
+# =============================================
+
+# Módulos nativos de Node.js
+*.node
+*.so
+
+# =============================================
+# CACHE
+# =============================================
+
+# Cache de npm/yarn
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Cache de otros paquetes
+.cache/
+.parcel-cache/
+
+# =============================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# =============================================
+
+# Tu proyecto puede agregar aquí archivos específicos
+# que no quieras versionar
+
+# Reportes generados automáticamente
+reportes/automaticos/
+*.xlsx
+*.csv
+
+# Documentación generada
+docs/generados/
+
+# =============================================
+# SISTEMA DE CONTROL DE VERSIONES
+# =============================================
+
+# Git
+.gitignore
+.gitattributes
+
+# =============================================
+# ARCHIVOS DE DEPLOY
+# =============================================
+
+# Configuraciones de deploy específicas
+.elasticbeanstalk/
+.ebextensions/
+
+# =============================================
+# EXCEPCIONES - ARCHIVOS QUE SÍ DEBEN SUBIRSE
+# =============================================
+
+# ¡IMPORTANTE! Mantener estos archivos:
+
+# README y documentación
+!.vscode/settings.json.example
+!.env.example
+!README.md
+!CHANGELOG.md
+!CONTRIBUTING.md
+
+# Configuraciones de ejemplo
+!config.example.js
+!database.example.sql
+
+# Licencias
+!LICENSE
+!LICENSE.md
