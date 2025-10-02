@@ -19,5 +19,8 @@
     "nodemailer": "^7.0.6"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
