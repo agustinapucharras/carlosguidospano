@@ -1,12 +1,13 @@
 
 import './App.css'
+import Navv from './components/layout/Navv'
 
 function App() {
 
 
   return (
     <>
-     <h2>SISTEMA DE GESTION DE ALUMNOS CARLOS GUIDO SPANO</h2>
+    <Navv/>
     </>
   )
 }
