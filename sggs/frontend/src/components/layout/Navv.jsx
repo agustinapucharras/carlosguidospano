@@ -21,7 +21,7 @@ const Navv = () => {
               className="d-inline-block align-top me-2"
             
             />
-            <span className="fw-bold text-uppercase small">
+            <span className="fw-bold text-uppercase small text-white">
               Sistema de Gestión <br /> Carlos Guido Spano
             </span>
           </Navbar.Brand>
@@ -29,19 +29,18 @@ const Navv = () => {
           <Nav className="d-flex align-items-center gap-3">
 
             <Nav.Link
-              href="/principal"
+              href="/principal "
               className="text-white px-3 py-1 rounded small"
               style={{ color:"white" }}
             >
-              Principal
+              <i className="bi bi-house me-2"></i>
+               Principal 
             </Nav.Link>
 
           </Nav>
         </div>
  
-        <Button variant="danger" size="sm">
-              Cerrar Sesión
-        </Button>
+        <button className="btn btn-outline-secondary">Cerrar Sesión</button>
         
       </Container>
     </Navbar>
